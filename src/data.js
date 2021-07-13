@@ -26,6 +26,15 @@ export const experiences = [
     contentStyle:{background: '#e50000', color: '#fff'},
     arrrowStyle:{ borderRight: '7px solid  #e50000' }
   },
+  {
+    time: "January, 2019 - June, 2019",
+    company: "Sabre Corporation",
+    description: "Associate Software Intern",
+    cardDetailedText: "Created a tool for workflow and documentation visualization using ReactJS.",
+    icon:"./sabre.png",
+    contentStyle:{background: '#e50000', color: '#fff'},
+    arrrowStyle:{ borderRight: '7px solid  #e50000' }
+  },
 ];
 
 export const testimonials = [
@@ -53,7 +62,9 @@ export const skills = [
   "Redis",
   "Linux",
   "Maven",
+  "DBMS",
   "GIT",
+  "REST",
   "Jenkins",
   "GoLang"
 ];

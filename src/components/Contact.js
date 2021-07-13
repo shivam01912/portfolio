@@ -1,5 +1,12 @@
 import React from "react";
 import { PhoneIcon } from "@heroicons/react/solid";
+import { IoLogoLinkedin } from 'react-icons/io'
+
+const iconStyle = {
+  width: '100%',
+  textAlign: 'center',
+  color: '#2867B2'
+};
 
 export default function Contact() {
   // const [name, setName] = React.useState("");
@@ -31,7 +38,7 @@ export default function Contact() {
         <div className="text-center mb-20">
           <PhoneIcon className="w-10 inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Contact Me
+            Contact
           </h1>
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/3 px-6 mt-4 lg:mt-0">
@@ -43,17 +50,17 @@ export default function Contact() {
               </a>
             </div>  
             <div className="lg:w-1/3 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">9034401912</p>
+                <a href="https://www.linkedin.com/in/shivam01912/"
+                  target="_blank">
+                  <IoLogoLinkedin icon={IoLogoLinkedin} size="60px" style={iconStyle}/>
+                </a>
             </div>
-            <div className="lg:w-1/3 px-6">
+            <div className="lg:w-1/3 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
-              <p className="mt-1">
-                Bengakuru <br />
+              <p className="text-indigo-400 leading-relaxed">
+                Bengaluru <br />
                 Karnataka, India 560037
               </p>
             </div>
