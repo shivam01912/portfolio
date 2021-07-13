@@ -3,10 +3,17 @@ import React from "react";
 import { experiences } from "../data";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import moment from 'moment'
 
 const iconStyle = {
   borderRadius: 50
 };
+
+var a = moment();
+var b = moment('01-2019', 'MM-YYYY');
+var age = moment.duration(a.diff(b));
+var years = age.years();
+var months = age.months();
 
 export default function Experiences() {
   return (
@@ -18,7 +25,7 @@ export default function Experiences() {
             Past Experience
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            I have been working as a Software Engineer for past 2 years.
+            I have been working as a Software Engineer for past {years} years and {months} months.
           </p>
         </div>
         <div>
