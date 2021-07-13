@@ -1,5 +1,11 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+import { IoLogoTwitter, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io'
+
+const iconStyle = {
+  marginLeft: '20px',
+  marginRight: '20px'
+};
 
 export default function Navbar() {
   return (
@@ -18,6 +24,21 @@ export default function Navbar() {
             Skills
           </a>
         </nav>
+        <a href="https://www.linkedin.com/in/shivam01912/"
+          target="_blank"
+          style={iconStyle}>
+          <IoLogoLinkedin icon={IoLogoLinkedin} size="30px"/>
+        </a>
+        <a href="https://github.com/shivam01912"
+          target="_blank"
+          style={iconStyle}>
+          <IoLogoGithub icon={IoLogoGithub} size="30px"/>
+        </a>
+        <a href="https://twitter.com/Shivam01912"
+          target="_blank"
+          style={iconStyle}>
+          <IoLogoTwitter icon={IoLogoTwitter} size="30px"/>
+        </a>
         <a
           href="#contact"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
