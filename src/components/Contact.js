@@ -46,7 +46,7 @@ export default function Contact() {
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                shivam01912@email.com
+                shivam01912@gmail.com
               </a>
             </div>  
             <div className="lg:w-1/3 px-6 mt-4 lg:mt-0">
