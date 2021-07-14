@@ -48,6 +48,8 @@ export default function Experiences() {
               </p>
             </VerticalTimelineElement>
           ))}
+            <VerticalTimelineElement
+              iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}/>
           </VerticalTimeline>
         </div>
         {/* <div className="flex flex-wrap -m-4">
