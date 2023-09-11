@@ -1,6 +1,15 @@
 export const experiences = [
   {
-    time: "June, 2021 - Present",
+    time: "November, 2022 - Present",
+    company: "Intuit",
+    description: "Software Engineer 2",
+    cardDetailedText: "Personal finance management team which provides capabilities to manage individual financial instruments and provides an overall picture of one's financial state.",
+    icon:"./intuit.jpg",
+    contentStyle:{background: '#365ebf', color: '#fff'},
+    arrrowStyle:{ borderRight: '7px solid  #365ebf' }
+  },
+  {
+    time: "June, 2021 - November, 2022",
     company: "PayPal",
     description: "Software Engineer 2",
     cardDetailedText: "Payments fulfillment team which actuates the movement of funds from one party to another.",
